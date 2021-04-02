@@ -1,0 +1,83 @@
+body {
+	background-color: white;
+}
+h1 {
+	font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+	font-size: 42px;
+}
+.image {
+	margin-top:10px;
+	margin-left:10px;
+	width:97%;
+	height:100%;
+}
+table {
+	margin-top:55px;
+	width:100%;
+	border: 1px solid black;
+}
+#bodyPart {
+	color:red;
+	border:10px break
+}
+.logo {
+    font-family: fontawesome;
+    text-decoration: none;
+    line-height: 1;
+    font-size: 37px;
+    letter-spacing: 3px;
+    color: #555555;
+    display: block;
+    position: absolute;
+    top: 17px;
+}
+
+.logo .logo-com {
+    display: inline;
+	color: #4CAF50;
+}
+
+.bar {
+	border:1px solid black;
+	width:100%;
+	overflow:hidden;
+	height:44px;
+}
+.bar-left {
+	float:left;
+}
+.bar-element {
+	margin-left:10px;
+	margin-right:10px;
+	background-color:#4CAF50;
+	color:#ffffff;
+	
+}
+.bar-element-non-selected {
+	margin-left:10px;
+	margin-right:10px;
+}
+.example {
+	padding: 8px 20px;
+    margin: 24px -20px;
+    box-shadow: none;
+}
+.example-heading {
+	font-family: "Segoe UI",Arial,sans-serif;
+	color: #000;
+    background-color: #fff;
+	padding: 8px 16px;
+	font-weight: 400;
+}
+.intro {
+	font-size: 16px;
+}
+.codespan {
+	color: crimson;
+    background-color: #f1f1f1;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 110%;
+}

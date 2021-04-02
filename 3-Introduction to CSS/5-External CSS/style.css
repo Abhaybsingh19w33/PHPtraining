@@ -1,0 +1,24 @@
+h1 {
+    /*
+    color will change the colour of text in the heading.
+    bacckgroud will change the colour in the background.
+    padding will add some sapce inside the box and enlarge the box.
+    font size will increase the by 2.9em
+    */
+        color: red;
+    background: yellow;
+    padding: 15px;
+    font-size: 2.9em;
+}
+p {
+    /*
+    bacckgroud will change the colour in the background.
+    padding will add some sapce inside the box and enlarge the box.
+    font size will increase the by 1.5em
+    */
+        font-weight: bold;
+    background: green;
+    padding:15px;
+    font-size: 1.5em;
+            
+}

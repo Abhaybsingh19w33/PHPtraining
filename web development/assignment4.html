@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Adding CSS to the file-->
+        <link rel="stylesheet" href="assignment4css.css">
+        <link rel="text/javascript" src="script.js">
+    </head>
+    <body>
+        <div class="full-form">
+            <form>
+                <p class="contact-details"><strong>Contact Details</strong></p>
+
+                    <!-- First name label and input for first name-->
+                    <div class="first_name">
+                        <div class="first_name">First Name</div>
+                        <input type="text" class="form-control" id="first_name" 
+                        placeholder="First Name" onblur="validateFirstName();">
+                        <span id="message1" style="color: red"></span>
+                    </div>
+					
+                    <!-- Last name label and input for last name-->
+                    <div class="last-name">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" class="form-control" id="last_name" placeholder="Last Name" onblur="validateLastName">
+                        <span id="message2" style="color: red"></span>
+                    </div>
+
+                    <!-- Radio buttons for the gender-->
+                    <p>Gender</p>
+                    <div class="gender">
+                        <input class="form-check-input" type="radio" name="gender" id="male" value="male" checked>
+                        
+                        <div class="form-check-label" for="male">Male</div>
+                            
+							
+                        <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                        
+                        <div class="form-check-label" for="female">Female</div>
+                    </div>
+                    
+                    <!-- Adding date input for the date of birth-->
+					<div class="date-of-birth">
+                        <div class="dateOfBirth">Date of Birth</div>
+                        <input type="date" class="form-control" id="dateOfBirth" name="dateOfBirth">
+                    </div>
+
+                    <!-- Adding input field for email-->
+                    <div class="email">
+                        <div class="email">Email</div>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+					</div>
+
+                    <!-- Phone number field-->
+                    <div class="phone-number">
+                        <div class="phone">Phone Number</div>
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number"
+                        onblur="validatePhoneNumber">
+                        <span id="message3" style="color: red"></span>
+                    </div>
+            </form>
+        </div>
+    </body>
+</html>
